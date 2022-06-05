@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2rem;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;   
+     background-color: #ed07b7;
+    
+}
+
+.header{
+    background-image: linear-gradient(rgba(3, 0, 0, 0.7),rgba(0,0,0,.8)),url(tsoft.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    
+}
+
+.header-text{
+    
+    /* max-width: 30rem; */
+    font-size: 2rem;
+    text-align: center;
+    /* padding: 4rem 5rem; */
+    line-height: 1.6;
+    position: absolute;
+    top: 14rem;
+    bottom: 14rem;
+    left: 35rem;
+    right: 40rem;
+
+}
+.info{
+    padding: 4rem 5rem;
+    border-radius: 5rem;
+    max-width: 75rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-left:15rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    background-color: yellow;
+    /* position: absolute; 
+     right: 13rem;
+    left: 13rem; */
+
+
+}
+
+h1{
+    /* padding: 1rem; */
+}
+h2{
+    /* padding: 3rem 4rem; */
+    text-align: center;
+    font-size: 1.5rem;
+    /* margin-right: 2rem; */
+}
+h3{
+     margin: 2rem 3rem;
+     font-size: 2rem;
+}
+
+
+
+  h4{
+      font-size: 3rem;
+  }
+
+.work{
+    margin-top: 2rem;
+    max-width: 200rem;
+    max-height: 70rem;
+    padding: 4rem 5rem;
+    bottom: 30rem;
+    text-align: center;
+    background-color: yellow;
+  }
+
+.work-img1{
+    /* max-width: 20rem;
+    max-height: 5rem;
+    display: flex;
+    top: 3rem;
+    left: 3rem;
+    bottom: 3rem; */
+    width: 20rem;
+    display: flex;
+    margin-top: 2rem;
+    border-radius: 5rem;
+}
+.work-img2{
+  width: 20rem;
+  /* height: 20rem; */
+  display: flex;
+  margin-top: 2rem;
+  border-radius: 5rem;
+
+
+
+    
+}
+.work-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  
+  
+}
+
+.skills{
+    text-align: center;
+   
+}
+
+.myself{
+    background-color: yellow;
+    text-align: center;
+}
+
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 2rem;
+    max-width: 100rem;
+    margin: 3rem 3rem;
+}
+
+.skill-wrap{
+    border-radius: 20rem;
+    padding: 6rem 5rem;
+    background-color: #c2ded1;
+    max-width: 150rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.skill-name{
+    padding: 3rem;
+}
+
+.skill-arrow{
+    max-width: 4rem;
+    max-width: 3rem;
+    padding: 2rem 2rem;
+    font-size: 4rem;
+}
+
+
+h5{
+    padding: 3rem 2rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+
+.img-skill{
+    width: 20rem;
+}
+
+.skills-text{
+    font-size: 2rem;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact-info{
+    padding: 4rem 5rem;
+}
+.contact-info{
+    display: flex;
+    
+}
+
+.contact{
+    padding: 2rem 3rem;
+}
+.contact-me{
+    padding: 2rem 2rem;
+}
+
+.phone{
+    /* display:flex; */
+    text-align: center;
+    padding: 2rem;
+    
+}
+footer{
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.contact-form{
+    padding: 3rem 4rem;
+}
+
+
+
+@media only scre and (max-width:480px) {
+	body{
+        background-color: red;
+    }	
+	
+}
