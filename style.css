@@ -242,7 +242,8 @@ footer{
 }
 .info{
     padding: 2rem 3rem;
-    border-radius: 5rem;
+    height:3rem;
+    border-radius: 3rem;
     max-width: 30rem;
     text-align: center;
     font-size: 2rem;
@@ -256,5 +257,15 @@ footer{
 
 
 }
+
+.work{
+    margin-top: 2rem;
+    max-width: 100rem;
+    max-height: 50rem;
+    padding: 4rem 5rem;
+    bottom: 30rem;
+    text-align: center;
+    background-color: yellow;
+  }
 }
 
