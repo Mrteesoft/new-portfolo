@@ -240,5 +240,21 @@ footer{
     right: 5rem;
 
 }
+.info{
+    padding: 2rem 3rem;
+    border-radius: 5rem;
+    max-width: 30rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-left:5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: yellow;
+    /* position: absolute; 
+     right: 13rem;
+    left: 13rem; */
+
+
+}
 }
 
