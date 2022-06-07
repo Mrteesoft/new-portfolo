@@ -227,7 +227,7 @@ footer{
 }
 @media only screen and (max-width:600px) {
 	body{
-        background-color: red;
+        background-color: white;
         Padding:0;
     }	
   .header-text{
@@ -241,15 +241,13 @@ footer{
 
 }
 .info{
-    padding: 2rem 3rem;
-    height:5rem;
-    border-radius: 3rem;
-    max-width: 30rem;
+    padding: 2rem;
+    max-width: 20rem;
     text-align: center;
     font-size: 1rem;
-    margin-left:5rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-left:2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
     background-color: yellow;
     /* position: absolute; 
      right: 13rem;
