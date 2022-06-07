@@ -240,6 +240,11 @@ footer{
     right: 2rem;
 
 }
+
+h3{
+   margin:2rem;
+
+}
 .info{
     padding: 2rem;
     max-width: 20rem;
