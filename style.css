@@ -215,14 +215,12 @@ footer{
     }	
   .header-text{
     
-    /* max-width: 30rem; */
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
-    /* padding: 4rem 5rem; */
-    line-height: 1.6;
+    line-height: 1;
     position: absolute;
-    left: 20rem;
-    right: 15rem;
+    left: 15rem;
+    right: 5rem;
 
 }
 }
