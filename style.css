@@ -209,9 +209,20 @@ footer{
 
 
 
-@media only scre and (max-width:480px) {
+@media only screen and (max-width:600px) {
 	body{
         background-color: red;
     }	
-	
+  .header-text{
+    
+    /* max-width: 30rem; */
+    font-size: 2rem;
+    text-align: center;
+    /* padding: 4rem 5rem; */
+    line-height: 1.6;
+    position: absolute;
+    left: 20rem;
+    right: 15rem;
+
+}
 }
