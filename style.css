@@ -209,6 +209,22 @@ footer{
 
 
 
+@media only screen and (max-width:480px) {
+	body{
+        background-color: red;
+        Padding:0;
+    }	
+  .header-text{
+    
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1;
+    position: absolute;
+    left: 20rem;
+    right: 5rem;
+
+}
+}
 @media only screen and (max-width:600px) {
 	body{
         background-color: red;
@@ -225,3 +241,4 @@ footer{
 
 }
 }
+
